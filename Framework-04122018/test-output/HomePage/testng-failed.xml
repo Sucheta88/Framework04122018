@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HomePage]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="sUserPassword" value="Sucheta@1234"/>
+    <parameter name="sUserEmailId" value="ss2sharma@gmail.com"/>
+    <classes>
+      <class name="com.mercuryTravel.tests.HomePageTests">
+        <methods>
+          <include name="afterAMethod"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="verifyLoginToApplication"/>
+        </methods>
+      </class> <!-- com.mercuryTravel.tests.HomePageTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [HomePage] -->
